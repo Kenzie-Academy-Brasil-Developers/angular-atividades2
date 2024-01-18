@@ -1,0 +1,6 @@
+<form (submit)="onSubmit($event)">
+    <input type="text" placeholder="Nome do produto" [formControl]="name">
+    <input type="number" placeholder="R$" [formControl]="price">
+    <textarea placeholder="Descrição de produto" [formControl]="description"></textarea>
+    <button type="submit">Cadastrar produto</button>
+</form>
