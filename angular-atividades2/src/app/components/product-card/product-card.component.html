@@ -1,0 +1,6 @@
+<li>
+    <h3>{{ product.name }}</h3>
+    <p> {{ product.price.toLocaleString('pt-BR', { style: "currency", currency: "BRL"}) }}</p>
+    <p>{{ product.description }}</p>
+    <button (click)="onHandleClick()">Remover produto</button>
+</li>
